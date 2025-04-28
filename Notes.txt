@@ -3,7 +3,14 @@ https://github.com/gitname/react-gh-pages
 git init
 git remote add origin https://github.com/navapragya/navapragya.github.io.git
 
+1. To deploy as gh page app:
+==================
 npm run deploy
 
-
 Delete node_modules/.cache/gh-pages if getting error: branch named 'gh-pages' already exists
+
+2. To push source code
+==================
+git add .
+git commit -m "First baseline"
+git push origin master
