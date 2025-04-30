@@ -65,8 +65,9 @@ function Header(props) {
 	      */}
 
               <li><a className="nav-link scrollto" href="#services">Services</a></li>
-              <li><a className="nav-link scrollto" href="#about">About</a></li>
               <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a className="nav-link scrollto" href="#about">About</a></li>
+              
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
