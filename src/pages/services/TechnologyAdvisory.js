@@ -12,8 +12,8 @@ const TechnologyAdvisory = (props) => {
 
         {/*<!-- Hero Section -->*/}
         <section class="service-hero">
-            <div class="service-hero-content">
-                <h1 class="service-title">Strategic Technology Advisory</h1>
+            <div class="section-title service-hero-content">
+                <h2 class="service-title">Strategic Technology Advisory</h2>
             </div>
         </section>
 

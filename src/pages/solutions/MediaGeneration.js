@@ -12,8 +12,8 @@ const MediaGeneration = (props) => {
 
         {/*<!-- Hero Section -->*/}
         <section class="service-hero">
-            <div class="service-hero-content">
-                <h1 class="service-title">Media Generation</h1>
+            <div class="section-title service-hero-content">
+                <h2 class="service-title">Media Generation</h2>
             </div>
         </section>
 
@@ -67,6 +67,7 @@ const MediaGeneration = (props) => {
 
         {/*<!-- Video Showcase -->*/}
         <section class="service-video">
+            <p class="service-tagline">* Please view in full screen mode</p>
             <div class="video-container">
                 <iframe class="responsive-iframe" 
                     src="https://aimindpro.s3.ap-south-1.amazonaws.com/Avatar.mp4" 

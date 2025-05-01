@@ -10,10 +10,12 @@ const DigitalProcessing = (props) => {
         
         <div class="service-container">
 
+           
+
         {/*<!-- Hero Section -->*/}
         <section class="service-hero">
-            <div class="service-hero-content">
-                <h1 class="service-title">Digital Document Processing with Agentic AI</h1>
+            <div class="section-title service-hero-content">
+                <h2 class="service-title">Digital Document Processing with Agentic AI</h2>
             </div>
         </section>
 
@@ -48,6 +50,7 @@ const DigitalProcessing = (props) => {
 
         {/*<!-- Video Showcase -->*/}
         <section class="service-video">
+            <p class="service-tagline">* Please view in full screen mode</p>                
             <div class="video-container">
                 <iframe class="responsive-iframe" 
                     src="https://aimindpro.s3.ap-south-1.amazonaws.com/DigitalDataExtraction.mp4" 

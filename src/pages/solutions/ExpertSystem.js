@@ -12,8 +12,8 @@ const ExpertSystem = (props) => {
 
         {/*<!-- Hero Section -->*/}
         <section class="service-hero">
-            <div class="service-hero-content">
-                <h1 class="service-title">Intelligent AI Systems</h1>
+            <div class="section-title service-hero-content">
+                <h2 class="service-title">Intelligent AI Systems</h2>
             </div>
         </section>
 
@@ -50,15 +50,18 @@ const ExpertSystem = (props) => {
 
         {/*<!-- Video Showcase -->*/}
         <section class="service-video">
+            {/*<p class="service-tagline">* Demonstration video coming soon</p>*/}
+            <p class="service-tagline">* Please view in full screen mode</p>
             <div class="video-container">
                 <iframe class="responsive-iframe" 
-                    src="hhttps://aimindpro.s3.ap-south-1.amazonaws.com/Medical-PreInterview.mp4" 
+                    src="https://aimindpro.s3.ap-south-1.amazonaws.com/Medical-PreInterview.mp4" 
                     frameborder="0" 
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen
                     >
                 </iframe>
             </div>
+            
         </section>
         
         {/*<!-- Benefits Section -->*/}

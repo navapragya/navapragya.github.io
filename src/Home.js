@@ -197,13 +197,22 @@ const Home = (props) => {
         <div className="container">
 
             <div className="section-title">
-                <h2>About</h2>
+                <h2>About Us</h2>
             </div>
 
             <div className="row">
                 <div className="col-md-12">
-                    <p>The name 'Nava Pragya' is derived from the Sanskrit words Nava (new) and Pragya (wisdom, intelligence).</p>
-                    <p>We are a small team of experienced software professionals wih decades of experience, with a passion for transforming and scaling businesses with power of latest AI, and other technologies.</p>
+                    <p>
+                        The name 'Nava Pragya' is derived from the Sanskrit words Nava (new) and Pragya (wisdom, intelligence).</p>
+                    <p>
+                        We are a boutique consulting firm dedicated to unlocking the transformative potential of artificial intelligence for businesses.
+                    </p>
+                    <p>
+                        Having witnessed and participated in major technological transitions over decades—from early client-server systems to distributed computing, modern cloud infrastructure, and now Generative AI—we understand both the tremendous promises and growing complexities these changes bring. For businesses of all sizes and stages, these challenges manifest differently, requiring tailored approaches. 
+                    </p>
+                    <p>
+                        Our decades of industry and technology experience across diverse environments enable us to help you navigate these complex landscapes with confidence. If you believe your business is at a critical juncture where understanding trade-offs and making informed technological choices could significantly impact your future trajectory, we should talk.
+                    </p>
                     {/* 
                     <ul>
                         <li><i class="bx bx-check-double"></i> Digital transformation journey</li>

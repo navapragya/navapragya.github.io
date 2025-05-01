@@ -12,10 +12,11 @@ const ImplementationConsulting = (props) => {
 
         {/*<!-- Hero Section -->*/}
         <section class="service-hero">
-            <div class="service-hero-content">
-                <h1 class="service-title">AI Implementation Consulting</h1>
+            <div class="section-title service-hero-content">
+                <h2 class="service-title">AI Implementation Consulting</h2>
             </div>
         </section>
+        
 
         {/*<!-- Service Details -->*/}
         <section class="service-details">
