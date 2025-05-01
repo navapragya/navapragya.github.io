@@ -25,6 +25,52 @@ const Home = (props) => {
         </section>
 
 
+
+        {/*-- ======= Services Section ======= --*/}
+        <section id="services" className="services section-bg">
+        <div className="container">
+
+            <div className="section-title">
+            <h2>Services</h2>
+            </div>
+
+            <div className="row">
+                <div className="col-md-6">
+                    <div className="icon-box">
+                    <i className="bi bi-briefcase"></i>
+                    <h4>
+                        <a href="#" onClick={(e) => {
+                            e.preventDefault(); 
+                            props.onClick('TechnologyAdvisory')
+                        }}>
+                            Strategic Technology Advisory
+                        </a>
+                    </h4>
+                    <p>Expert guidance to transform your vision into actionable architecture & technology roadmaps</p>
+                    </div>
+                </div>
+
+                <div className="col-md-6">
+                    <div className="icon-box">
+                    <i className="bi bi-briefcase"></i>
+                    <h4>
+                        <a href="#" onClick={(e) => {
+                            e.preventDefault(); 
+                            props.onClick('ImplementationConsulting')
+                        }}>
+                            AI Implementation Consulting
+                        </a>
+                    </h4>
+                    <p>Specialized development services for complex Generative AI and cloud-based solutions</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </section>  
+        {/*-- End Services Section --*/}
+
+
         {/*-- ======= Products Section ======= --*/}
         <section id="products" className="services section-bg">
         <div className="container">
@@ -88,50 +134,6 @@ const Home = (props) => {
         </section>  
         {/*-- End Products Section --*/}
 
-
-        {/*-- ======= Services Section ======= --*/}
-        <section id="services" className="services section-bg">
-        <div className="container">
-
-            <div className="section-title">
-            <h2>Services</h2>
-            </div>
-
-            <div className="row">
-                <div className="col-md-6">
-                    <div className="icon-box">
-                    <i className="bi bi-briefcase"></i>
-                    <h4>
-                        <a href="#" onClick={(e) => {
-                            e.preventDefault(); 
-                            props.onClick('TechnologyAdvisory')
-                        }}>
-                            Strategic Technology Advisory
-                        </a>
-                    </h4>
-                    <p>Expert guidance to transform your vision into actionable architecture & technology roadmaps</p>
-                    </div>
-                </div>
-
-                <div className="col-md-6">
-                    <div className="icon-box">
-                    <i className="bi bi-briefcase"></i>
-                    <h4>
-                        <a href="#" onClick={(e) => {
-                            e.preventDefault(); 
-                            props.onClick('ImplementationConsulting')
-                        }}>
-                            AI Implementation Consulting
-                        </a>
-                    </h4>
-                    <p>Specialized development services for complex Generative AI and cloud-based solutions</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </section>  
-        {/*-- End Services Section --*/}
         
 
         {/*-- ======= Contact Section ======= --*/}

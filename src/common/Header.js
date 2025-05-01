@@ -40,8 +40,9 @@ function Header(props) {
           <div className="logo me-auto"></div>          
           <nav id="navbar" className="navbar order-last order-lg-0">
             <ul>
-              <li><a className="nav-link scrollto active" href="#home">Home</a></li>
-	      <li><a className="nav-link scrollto active" href="#products">Solutions</a></li>
+              <li><a className="nav-link scrollto" href="#home">Home</a></li>
+              <li><a className="nav-link scrollto" href="#services">Services</a></li>
+	            <li><a className="nav-link scrollto" href="#products">Solutions</a></li>
 
 	      {/*	
               <li className="dropdown"><a href="#"><span>Solutions</span> <i className="bi bi-chevron-down"></i></a>
@@ -64,7 +65,6 @@ function Header(props) {
               </li>
 	      */}
 
-              <li><a className="nav-link scrollto" href="#services">Services</a></li>
               <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
               <li><a className="nav-link scrollto" href="#about">About Us</a></li>
               
